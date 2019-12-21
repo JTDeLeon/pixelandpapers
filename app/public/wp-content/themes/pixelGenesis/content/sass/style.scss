@@ -1,0 +1,1694 @@
+// FONTS 
+//Reference the fonts using "font-family:FONT_NAME" Added legal fonts: 
+@font-face {
+    font-family: BoldDisp;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Bold-Disp.otf") format("opentype");
+}
+@font-face {
+    font-family: BookBody;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Book-Body.otf") format("opentype");
+}
+@font-face {
+    font-family: HeavyDisp;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Heavy-Disp.otf") format("opentype");
+}
+@font-face {
+    font-family: MediumBody;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Medium-Body.otf") format("opentype");
+}
+@font-face {
+    font-family: RomanBody;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Body.otf") format("opentype");
+}
+@font-face {
+    font-family: RomanDisp;
+    src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Disp.otf") format("opentype");
+}
+
+
+// This is where the styles for the overall site go
+
+body {
+    color: #fff;
+    font-family: BoldDisp;
+}
+
+
+
+// Global Header Styles
+header {
+    .flex {
+        display: flex;
+    }
+    .mauto {
+        margin: auto;
+    }
+    .desk-header {
+        display: none;
+    }
+    // Mobile Header
+    .mob-header {
+        display: flex;
+        padding: 30px 40px 0;
+        justify-content: space-between;
+
+        .hamburger {
+            margin-top: 0;
+            cursor: pointer;
+        }
+    }
+
+
+    @media (min-width: 768px) {
+        .mob-header {
+            display: none;
+        }
+        // Desktop Header
+        .desk-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 40px 0;
+            max-width: 1260px;
+            margin: auto;
+        
+            .left {
+                .logo-container {
+                    margin: auto;
+                    .logo {
+                        min-width: 70px;
+                    }
+                }
+                .menu-bar {
+                    margin: auto;
+                    margin-left: 30px;
+
+                    .navLink {
+                        width: 150px;
+                        height: 70px;
+                        display: flex;
+                        color: white;
+                        text-decoration: none;
+                        font-family: BookBody;
+                        @media (max-width: 860px) {
+                            width: auto;
+                        }
+
+                        .navContainer {
+                            margin: auto;
+                            width: 120px;
+                            p {
+                                margin: auto;
+                            }
+                            img {
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                    .navLink:hover {
+                        background: #0f1c5d;
+                    }
+
+                    .hoverBox {
+                        position: absolute;
+                        background: white;
+                        margin-top: 60px;
+                        padding: 15px 30px;
+
+                        li a {
+                            color: 3f497d;
+                            text-decoration: none;
+                            font-family: BookBody;
+                        }
+
+                        li:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+            }
+
+            .right {
+                width: 40%;
+                .header-social {
+                    margin: auto;
+                    flex-wrap: wrap;
+                    img {
+                        margin: 0 10px;
+                    }
+                }
+
+                .bookLink {
+                    margin: auto;
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+.mobile-overlay {
+    padding: 40px;
+    text-align: center;
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        .leftimg {
+            margin: auto;
+            margin-left: 0;
+        }
+
+        .rightimg {
+            margin: auto;
+            margin-right: 0;
+            cursor: pointer;
+        }
+    }
+
+    .mainNavLink {
+        font-size: 30px;
+        font-family: HeavyDisp;
+        text-decoration: none;
+        color: #252d4b;
+    }
+    .topNav {
+        border-bottom: 1px solid #252d4b;
+        padding-bottom: 20px;
+    }
+
+    .serviceListMob {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        li a {
+            color: #0f1c5d;
+            text-decoration: none;
+            font-family: BookBody;
+            font-size: 30px;
+        }
+    }
+}
+
+
+
+.home {
+
+    .section-00 {
+        @media screen and (max-width: 767px) {
+            position: relative;
+            height: 720px;
+            background-image: linear-gradient(135deg,#933e92, #3c5cf8);
+            clip-path: polygon(
+                0 0,
+                100% 0,
+                100% 100%,
+                0 calc(100% - 10vw)
+            );
+        }
+        
+        @media screen and (max-width: 550px) {
+            height: 680px;
+        }
+        @media screen and (max-width: 485px) {
+            height: 650px;
+        }
+        
+        @media screen and (min-width: 768px) {
+            background: url(../image-min/section-00-bkgd.png) left top no-repeat;
+            background-size: 1240px;
+            height: 810px;
+        }
+
+        .one-column {
+            background: url(../image-min/section-01-mobile-lg-rez-logo-2.png) center center no-repeat;
+            max-width: 1260px;
+            margin: -90px auto 0;
+            padding: 100px 40px 80px;
+            background-size: 65%;
+            
+            @media screen and (min-width: 768px) {
+                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) 320px 30px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-shopper.png) 1060px 155px no-repeat,
+                            url(../image-min/section-01-dsktp-wordpress.png) 690px 375px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-merch.png) 840px 300px no-repeat,
+                            url(../image-min/section-01-mobile-three-dots.png) 1120px 360px no-repeat,
+                            url(../image-min/section-01-desktp-woo.png) 470px 470px no-repeat,
+                            url(../image-min/section-01-dsktp-shopify.png) 600px 540px no-repeat,
+                            url(../image-min/section-01-mobile-magento.png) 760px 510px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-iPad.png) 1100px 500px no-repeat;
+                //background-position-x: 300px;
+                //background-position-y: 40px;
+            }
+            
+            @media screen and (min-width: 1024px) {
+                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) 320px 30px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-shopper.png) 1060px 155px no-repeat,
+                            url(../image-min/section-01-dsktp-wordpress.png) 690px 375px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-merch.png) 840px 300px no-repeat,
+                            url(../image-min/section-01-mobile-three-dots.png) 1120px 360px no-repeat,
+                            url(../image-min/section-01-desktp-woo.png) 470px 470px no-repeat,
+                            url(../image-min/section-01-dsktp-shopify.png) 600px 540px no-repeat,
+                            url(../image-min/section-01-mobile-magento.png) 760px 510px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-iPad.png) 1100px 500px no-repeat;
+            }
+        }
+
+        .headline {
+            font-family: HeavyDisp;
+            text-align: left;
+            font-size: 2.7em;
+            color: #fff;
+            line-height: 1.1em;
+            letter-spacing: 1px;
+            padding: 50px 0 0;
+            
+            @media screen and (max-width: 550px) {
+                font-size: 2.3em;
+            }
+            @media screen and (max-width: 485px) {
+                font-size: 2em;
+            }
+            @media screen and (max-width: 435px) {
+                font-size: 1.65em;
+            }
+        }
+
+        .headline-descr {
+            font-family: BookBody;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.3em;
+            color: #e0cff2;
+            //padding: 0 80px 0 0;
+            max-width: 670px;
+
+        }
+
+        .button-container {
+            margin: 0 0 0 -20px;
+            
+            @media screen and (min-width: 768px) {
+                margin: 70px 0 0 -20px;
+            }
+
+            .work-button {
+                max-width: 70%;
+                margin: 20px 0;
+            }
+        }
+        
+        .brkpt {
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
+        }
+    }
+    
+    .section-01-mobile {
+        
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        .one-column {
+            max-width: 767px;
+            margin: auto;
+            padding: 30px 30px 0;
+        }
+        
+        .circle-1 {
+            margin: -26% 0 0 53%;
+            
+            @media screen and (min-width: 641px) {
+                margin: -150px 0 0 55%;
+            }
+            
+            .shopper {
+                z-index: 100;
+                position: absolute;
+                max-width: 30%;
+            }
+        }
+        
+        .wp-container {
+            margin: 15% 0 0 0;
+            
+            @media screen and (min-width: 641px) {
+                margin: 90px 0 0 0;
+            }
+            
+            .wordpress {
+                max-width: 15%;
+            }
+        }
+        
+        .circle-2 {
+            margin: -4% 0 0 10%;
+            
+            @media screen and (min-width: 641px) {
+                margin: -22px 0 0 11%;
+            }
+            
+            .merch {
+                max-width: 48%;
+                
+                @media screen and (min-width: 641px) {
+                    max-width: 65%;
+                }
+            }
+        }
+        
+        .circle-3 {
+            margin: -33% 13% 0 37%;
+            text-align: center;
+            
+            @media screen and (min-width: 641px) {
+                margin: -220px 0 0 175px;
+            }
+            
+            .three-circles {
+                max-width: 20%;
+            }
+        }
+        
+        .s-container {
+            margin: -26% -14px 0 0;
+            text-align: right;
+            
+            @media screen and (min-width: 641px) {
+                margin: -160px 0% 0px 0%;
+            }
+            
+            .shopify {
+                max-width: 16%;
+            }
+        }
+        
+        .woo-container {
+            margin: 9% 0 0 78%;
+            
+            .woo {
+                max-width: 100%;
+            }
+        }
+        
+        .mag-container {
+            margin: 5% 0 0 0;
+            
+            .magento {
+                max-width: 20%;
+            }
+        }
+        
+        .circle-4 {
+            margin: -24% -30px 0 90px;;
+            text-align: center;
+            
+            @media screen and (min-width: 641px) {
+                margin: -140px 0 0 180px;
+            }
+            
+            .three-circles {
+                max-width: 16%;
+            }
+        }
+    }
+    
+    .section-02-mobile {
+        margin: 70px 0 0;
+        
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .services {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 50px 50px;
+        }
+        
+        .services:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 50px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side{
+                width: 81%;
+            }
+        }
+        
+        .service {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 5px 30px 10px 50px;
+        }
+        
+        .descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 0.9em;
+            color: #5e5e5e;
+            line-height: 1.3em;
+        }
+    }
+    
+    .section-02 {
+        margin: 40px 0 0;
+        
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .services {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 50px 50px;
+        }
+        
+        .services:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 50%;
+                margin: 0 30px 0;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side {
+                width: 100%;
+            }
+            
+        }
+        
+        .two-column-a {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            
+            .left-side-a {
+                width: 60px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+            
+            .right-side-a {
+                width: 100%;
+                padding: 0 60px 0 0;
+            }
+            
+        }
+        
+        .service {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 5px 30px 10px 0;
+        }
+        
+        .descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 0.9em;
+            color: #5e5e5e;
+            line-height: 1.3em;
+        }
+    }
+    
+    .section-03-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .why {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .why:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-why {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 3.5em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 15px 30px 0 50px;
+            
+            span {
+                font-size: 0.8em;
+            }
+        }
+        
+        .large-award {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+        }
+        
+        .why-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-03 {
+        margin: 0px 0;
+        
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 33%;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side{
+                width: 100%;
+            }
+        }
+        
+        .why {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .why:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-why {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 4.0em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 15px 30px 0 50px;
+            
+            @media screen and (min-width: 1100px) {
+                font-size: 4.9em;
+            }
+            
+            span {
+                font-size: 0.8em;
+            }
+        }
+        
+        .large-award {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 3.0em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+            
+            @media screen and (min-width: 1100px) {
+                font-size: 3.7em;
+            }
+        }
+        
+        .why-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-04-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        
+        .large-before {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: -180px 30px 20px 50px;
+            position: relative;
+        }
+        
+        .large-after {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+            position: relative;
+        }
+        
+        .large-and {
+            text-align: center;
+            font-family: HeavyDisp;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 0 -50px;
+            position: relative;
+        }
+        
+        .before-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 0 10px 50px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 40%;
+                
+                .image-container {
+                    margin: 30px 0 0 -20px;
+                    
+                    .before-work {
+                        max-width: 100%
+                    }
+                }
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side{
+                width: 100%;
+                
+                img {
+                    max-width: 100%;
+                }
+                
+                .image-container {
+                    margin: 50px -20px 0 -30px;
+                    
+                    .after-work {
+                        max-width: 100%
+                    }
+                }
+            }
+
+            
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-04 {
+        margin: 0px 0;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        
+        .large-before {
+            text-align: right;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: -110px 75px 0 0;
+            position: relative;
+        }
+        
+        .large-after {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 200px 30px 20px 0;
+            position: relative;
+        }
+        
+        .large-and {
+            text-align: right;
+            font-family: HeavyDisp;
+            font-size: 14em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: -40px -90px 0 0;
+            position: relative;
+        }
+        
+        .before-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 0 10px 0;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 33%;
+                margin: 0 30px 0;
+                
+                .image-container {
+                    margin: 60px 50px 0 0;
+                    text-align: right;
+                }
+
+                img {
+                    max-width: 90%;
+                }
+            }
+
+            .right-side{
+                width: 65%;
+                
+                .image-container {
+                        margin: 40px auto 0;
+                }
+            }
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 0;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-05-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .testimonial {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px -60px 50px;
+            position: relative;
+        }
+        
+        .testimonial:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-quote {
+            text-align: left;
+            font-family: MediumBody;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 -160px -50px;
+        }
+        
+        .quotes {
+            margin: 0 100px 0 50px;
+            .test-descr-text {
+                text-align: left;
+                font-family: RomanBody;
+                font-size: 0.9em;
+                color: #5e5e5e;
+                line-height: 1.3em;
+            }
+            
+            .two-column {
+                display: flex;
+                flex-direction: row;
+
+                .left-side {
+                    width: 20%;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .right-side{
+                    width: 100%;
+                    
+                    .descr-text {
+                        text-align: left;
+                        font-family: RomanBody;
+                        font-size: 0.9em;
+                        color: #5e5e5e;
+                        line-height: 1.3em;
+                    }
+                    
+                    .stars {
+                        margin: -15px 0 0 0;
+                    }
+                }
+            }
+        }
+        
+        .pagination {
+            text-align: center;
+        }
+    }
+    
+    .section-05 {
+        margin: 0px 0;
+         @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .testimonial {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px -60px 50px;
+            position: relative;
+        }
+        
+        .testimonial:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-quote {
+            text-align: left;
+            font-family: MediumBody;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 -160px -50px;
+        }
+        
+        .quotes {
+            margin: 0 100px 0 50px;
+            .test-descr-text {
+                text-align: left;
+                font-family: RomanBody;
+                font-size: 0.9em;
+                color: #5e5e5e;
+                line-height: 1.3em;
+            }
+            
+            .two-column {
+                display: flex;
+                flex-direction: row;
+
+                .left-side {
+                    width: 60px;
+                    margin: 0 10px 0;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .right-side{
+                    width: 100%;
+                    
+                    .descr-text {
+                        text-align: left;
+                        font-family: RomanBody;
+                        font-size: 0.9em;
+                        color: #5e5e5e;
+                        line-height: 1.3em;
+                    }
+                    
+                    .stars {
+                        margin: -15px 0 0 0;
+                    }
+                }
+            }
+        }
+        
+        .pagination {
+            text-align: center;
+        }
+    }
+    
+    .section-06-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .contact {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .contact:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .large-contact {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+        }
+        
+        .contact-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .9em;
+            color: #3a5dfb;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .entered {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #3a5dfb;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .entered:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .entry {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .6em;
+            color: #3a5dfb;
+            line-height: 1.1em;
+            margin: 0px 0px 30px 0px;
+            border-bottom: 1px solid #ddd;
+            
+            @media screen and (max-width: 767px) {
+                font-size: 1.5em;
+            }
+            @media screen and (max-width: 620px) {
+                font-size: 1.2em;
+            }
+            @media screen and (max-width: 520px) {
+                font-size: 1em;
+            }
+            @media screen and (max-width: 450px) {
+                font-size: .7em;
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: 1.5em;
+            }
+            @media screen and (min-width: 900px) {
+                font-size: 1.3em;
+            }
+            @media screen and (min-width: 768px) {
+                font-size: 1.1em;
+            }
+        }
+        
+        .entry:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .entry-drop {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .6em;
+            color: #bfc2ce;
+            line-height: 1.1em;
+            margin: 0px 0px 30px 0px;
+            border-bottom: 1px solid #ddd;
+            border-top: 0 !important;
+            border-right: 0 !important;
+            border-left: 0 !important;
+            -webkit-appearance: none;  /*Removes default chrome and safari style*/
+            -moz-appearance: none;  /*Removes default style Firefox*/
+            background: url('../image-min/section-06-mobile-down-arrow.png')  no-repeat;
+            background-position: right;  /*Position of the background-image*/
+            
+            @media screen and (max-width: 768px) {
+                font-size: 1.5em;
+            }
+            @media screen and (max-width: 620px) {
+                font-size: 1.2em;
+            }
+            @media screen and (max-width: 520px) {
+                font-size: 1em;
+            }
+            @media screen and (max-width: 450px) {
+                font-size: .7em;
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: 1.5em;
+            }
+            @media screen and (min-width: 900px) {
+                font-size: 1.3em;
+            }
+            @media screen and (min-width: 768px) {
+                font-size: 1.1em;
+            }
+        }
+        
+        .arrow {
+            margin: 0 0 0 8vw;
+        }
+        
+        button {
+            background: none;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding: 16px 24px;
+            width: 96%;
+        }
+        
+        .button-container {
+                text-align: center;
+                margin: 50px auto -50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-06 {
+        margin: 0px 0;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .contact {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .contact:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .large-contact {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: column;
+
+            @media only screen and (min-width: 768px){
+                flex-direction: row;
+                margin: auto;
+            }
+
+            .right-side {
+                margin: auto;
+            }
+
+            .left-side {
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        
+        .contact-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .9em;
+            color: #3a5dfb;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .entered {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #3a5dfb;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .entered:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .entry {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .6em;
+            color: #3a5dfb;
+            line-height: 1.1em;
+            margin: 0px 0px 30px 0px;
+            border-bottom: 1px solid #ddd;
+            
+            @media screen and (max-width: 600px) {
+                font-size: 1em;
+            }
+            @media screen and (max-width: 550px) {
+                font-size: .8em;
+            }
+            @media screen and (max-width: 485px) {
+                font-size: .7em;
+            }
+            @media screen and (max-width: 435px) {
+                font-size: .6em;
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: 1.5em;
+            }
+            @media screen and (min-width: 900px) {
+                font-size: 1.3em;
+            }
+            @media screen and (min-width: 768px) {
+                font-size: 1.1em;
+            }
+        }
+        
+        .entry:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .entry-drop {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .6em;
+            color: #bfc2ce;
+            line-height: 1.1em;
+            margin: 0px 0px 30px 0px;
+            border-bottom: 1px solid #ddd;
+            border-top: 0 !important;
+            border-right: 0 !important;
+            border-left: 0 !important;
+            -webkit-appearance: none;  /*Removes default chrome and safari style*/
+            -moz-appearance: none;  /*Removes default style Firefox*/
+            background: url('../image-min/section-06-mobile-down-arrow.png')  no-repeat;
+            background-position: right;  /*Position of the background-image*/
+            
+            @media screen and (max-width: 600px) {
+                font-size: 1em;
+            }
+            @media screen and (max-width: 550px) {
+                font-size: .8em;
+            }
+            @media screen and (max-width: 485px) {
+                font-size: .7em;
+            }
+            @media screen and (max-width: 435px) {
+                font-size: .6em;
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: 1.5em;
+            }
+            @media screen and (min-width: 900px) {
+                font-size: 1.3em;
+            }
+            @media screen and (min-width: 768px) {
+                font-size: 1.1em;
+            }
+        }
+        
+        button {
+            background: none;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding: 16px 24px;
+            width: 96%;
+        }
+        
+        .arrow {
+            margin: 0 0 0 8vw;
+        }
+        
+        .button-container {
+                text-align: center;
+                margin: 50px auto -50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+// Global Footer Styles
+footer {
+    overflow: hidden;
+    
+    .flex {
+        display: flex;
+    }
+    .mauto {
+        margin: auto;
+    }
+    .aligncenter {
+        text-align: center;
+    }
+
+    // Mobile Footer
+    .mob-footer {
+        background: url(../image-min/footer-rez-mob-bg3.png) center center no-repeat;
+        display: flex;
+        min-height: 1100px;
+        padding: 210px 30px 0;
+        flex-direction: column;
+        max-width: 768px;
+        margin: auto;
+
+        .footer-title {
+            font-family: HeavyDisp;
+            width: 200px;
+            height: 70px;
+            border-bottom: 1px solid white;
+            color: white;
+            letter-spacing: 1.5px;
+        }
+
+        .row-container-footer {
+
+            @media (max-width: 550px) {
+                display: flex;
+            }
+
+            .row {
+                max-height: 100px;
+                justify-content: space-evenly;
+                margin-bottom: 30px;
+
+                @media (max-width: 550px) {
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    max-height: 100%;
+                }
+            
+                img {
+                    margin-bottom: 0;
+                    padding: 10px 20px;
+
+                    @media (max-width: 550px) {
+                        width: auto;
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+
+        .rezLogoBottom {
+            margin: 70px auto;
+        }
+
+        .footerMenu {
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    color: white;
+                    font-family: BookBody;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin: 5px 0;
+                }
+            }
+
+            .left {
+                margin: 0;
+            }
+        }
+
+        .socialBar {
+            margin: 100px auto;
+            display: flex;
+            justify-content: space-evenly;
+            width: 70%;
+        }
+
+        .addr {
+            color: white;
+            font-family: BookBody;
+        }
+        
+        #social-icons-mobile {
+            max-width: 40px;
+        }
+    }
+
+    .desk-footer {
+        display: none;
+    }
+
+    @media (min-width: 769px) {
+        .mob-footer {
+            display: none;
+        }
+        // Desktop Footer
+        .desk-footer {
+            background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
+            display: flex;
+            min-height: 945px;
+            padding: 130px 30px;
+            flex-direction: column;
+            margin: auto;
+
+            .inside-footer-container {
+                width: 1500px;
+                max-width: 1260px;
+                margin: 100px auto 0 auto;
+                .footer-title {
+                    font-family: HeavyDisp;
+                    width: 200px;
+                    height: 70px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    letter-spacing: 1.5px;
+                }
+
+                .row {
+                    max-width: 1260px;
+                    @media (max-width: 1360px) {
+                        width: 1260px;
+                    }
+                    @media (max-width: 1135px) {
+                        width: 1050px;
+                    }
+                    @media (max-width: 1035px) {
+                        width: 990px;
+                    }
+                    @media (max-width: 935px) {
+                        flex-wrap: wrap;
+                        width: 500px;
+                    }
+                    img {
+                        @media (max-width: 935px) {
+                            margin: auto 10px;
+                        }
+                    }
+                    .mzeroleft {
+                        margin-left: 0;
+                    }
+                }
+
+                .bottom-sect {
+                    margin-top: 100px;
+                    display: flex;
+
+                    .left-sec {
+                        width: 50%;
+                        @media (max-width: 1155px) {
+                            width: 30%;
+                        }
+
+                        .social-bars {
+                            margin-top: 100px;
+                            width: 230px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            margin-left: 0;
+                        }
+                    }
+
+                    .right-sec {
+                        width: 50%;
+                        @media (max-width: 1135px) {
+                            width: 30%;
+                        }
+
+                        .menuNavContainer {
+                            display: flex;
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 0;
+
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: BookBody;
+                                    line-height: 2;
+                                }
+                            }
+
+                            
+                        }
+
+                        .addr {
+                            margin-top: 100px;
+                            font-family: BookBody;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}
