@@ -159,7 +159,8 @@ function genesis_do_footer() {
 
 	// Build the text strings. Includes shortcodes.
 	$backtotop_text = '[footer_backtotop]';
-	$creds_text     = sprintf( '[footer_copyright before="%s "] &#x000B7; [footer_childtheme_link before="" after=" %s"] [footer_genesis_link url="https://www.studiopress.com/" before=""] &#x000B7; [footer_wordpress_link] &#x000B7; [footer_loginout]', __( 'Copyright', 'genesis' ), __( 'on', 'genesis' ) );
+	// $creds_text     = sprintf( '[footer_copyright before="%s "] &#x000B7; [footer_childtheme_link before="" after=" %s"] [footer_genesis_link url="https://www.studiopress.com/" before=""] &#x000B7; [footer_wordpress_link] &#x000B7; [footer_loginout]', __( 'Copyright', 'genesis' ), __( 'on', 'genesis' ) );
+	$creds_text     = sprintf( '&#9400 Copyright 2020 Pixel & Papers - All Rights Reserved');
 
 	// Filter the text strings.
 	$backtotop_text = apply_filters( 'genesis_footer_backtotop_text', $backtotop_text );

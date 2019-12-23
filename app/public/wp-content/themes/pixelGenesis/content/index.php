@@ -64,11 +64,11 @@
                         Contact
                     </a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="#contact">
+                <li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="/blog">
                         Blog
                     </a>
-                </li> -->
+                </li>
                 <!--
                 <li class="nav-item">
                     <a class="nav-link link text-black display-4" href="https://mobirise.com">
