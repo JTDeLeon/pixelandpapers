@@ -14,7 +14,8 @@ const uglifyjs = require('gulp-uglifyjs');
 sass.compiler = require('node-sass');
 
 var config = {
-    jsinclude : []
+    jsinclude : [], 
+    styleinclude : []
 }
 
 function clean(cb) {
@@ -59,6 +60,8 @@ function images(cb) {
 }
 
 function styles(cb) {
+    
+
     src('./content/sass/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(dest('./content/build/css'));
@@ -66,7 +69,13 @@ function styles(cb) {
 }
 
 function styleMin(cb) {
-    src('./content/build/css/style.css')
+
+    config.styleinclude.unshift('content/build/css/*.css');
+    src(config.styleinclude)
+    .pipe(concat('content/build/css/style.css'))  // combine all css
+    .pipe(dest('.'))
+
+    // src('./content/build/css/style.css')
     .pipe(cleancss())  // remove whitespace, etc
     .pipe(rename('style.min.css'))
     .pipe(uglifycss({
@@ -82,5 +91,5 @@ watch('src/*.sass', styles);
 // Or a composed task
 // watch('src/*.js', series(clean, javascript));
 };
-
+exports.clean = clean;
 exports.default = series(clean, styles, javascript, styleMin, jsmin);

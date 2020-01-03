@@ -25,6 +25,22 @@ require_once dirname( __FILE__ ) . '/lib/init.php';
 //Function to add Meta Tags in Header without Plugin
 function add_meta_tags() {
     ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    <?php }
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <?php 
+            
+    }
     add_action('wp_head', 'add_meta_tags');
     
+// GOOGLE ANALYTICS CODE 
+function ns_google_analytics() { ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155310371-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-155310371-1');
+    </script>
+    <?php
+    }
+    
+    add_action( 'wp_head', 'ns_google_analytics', 10 );
