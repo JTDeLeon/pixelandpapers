@@ -1693,3 +1693,26 @@ footer {
    
 }
 
+// Email Sign Up Styles
+.signup-title-desktop {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.signup-title-footer {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.footer-lower {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 769px) {
+        flex-direction: column;
+    }
+}

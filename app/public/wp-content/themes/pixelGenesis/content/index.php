@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="wp-content/themes/pixelGenesis/content/assets/socicon/css/styles.css">
   <link rel="stylesheet" href="wp-content/themes/pixelGenesis/content/assets/theme/css/style.css">
   <link rel="stylesheet" href="wp-content/themes/pixelGenesis/content/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="wp-content/themes/pixelGenesis/content/build/css/style.min.css" type="text/css">
   
   
   
@@ -125,6 +126,8 @@
             <hr class="line" style="width: 69%;">
         </div>
     </div>
+
+    <?php include 'partials/email-form.php' ?>
 </section>
 
 <section class="header5 cid-rEF3N6Rfkz mbr-fullscreen mbr-parallax-background" id="header5-4">
@@ -312,57 +315,62 @@
             </div>
         </div>
         <div class="footer-lower">
-            <div class="media-container-row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-            </div>
-            <div class="media-container-row mbr-white">
-                <div class="col-md-6 copyright">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 Pixel & Papers - All Rights Reserved
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <div class="social-list align-right">
-                        <!--
-                        <div class="soc-item">
-                            <a href="https://twitter.com/" target="_blank">
-                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        
-                        <div class="soc-item">
-                            <a href="https://www.youtube.com/" target="_blank">
-                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        
-                        <div class="soc-item">
-                            <a href="https://instagram.com/" target="_blank">
-                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        -->
-                        <!--
-                        <div class="soc-item">
-                            <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
-                                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://www.behance.net/Mobirise" target="_blank">
-                                <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        -->
+            <div class="left">
+                <div class="media-container-row">
+                    <div class="col-md-12">
+                        <hr>
                     </div>
                 </div>
+                <div class="media-container-row mbr-white">
+                    <div class="col-md-6 copyright">
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            © Copyright 2020 Pixel & Papers - All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-list align-right">
+                            <!--
+                            <div class="soc-item">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            
+                            <div class="soc-item">
+                                <a href="https://www.youtube.com/" target="_blank">
+                                    <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            
+                            <div class="soc-item">
+                                <a href="https://instagram.com/" target="_blank">
+                                    <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            -->
+                            <!--
+                            <div class="soc-item">
+                                <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                    <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.behance.net/Mobirise" target="_blank">
+                                    <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+               <?php include 'partials/email-form-footer.php' ?>
             </div>
         </div>
     </div>

@@ -1239,3 +1239,24 @@ footer {
               margin-top: 100px;
               font-family: BookBody;
               color: white; } }
+
+.signup-title-desktop {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 25px;
+  color: black; }
+
+.signup-title-footer {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  color: black; }
+
+.footer-lower {
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 769px) {
+    .footer-lower {
+      flex-direction: column; } }

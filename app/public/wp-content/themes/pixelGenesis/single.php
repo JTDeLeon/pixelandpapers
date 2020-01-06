@@ -56,6 +56,8 @@ get_header(); ?>
  
         // End the loop.
         endwhile;
+
+        include 'content/partials/email-form.php'
         ?>
  
         </main><!-- .site-main -->
