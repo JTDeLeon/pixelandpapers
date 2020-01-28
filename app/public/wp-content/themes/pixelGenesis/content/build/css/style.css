@@ -1260,3 +1260,9 @@ footer {
   @media (max-width: 769px) {
     .footer-lower {
       flex-direction: column; } }
+
+.form-group {
+  color: #909090; }
+
+h2.mbr-section-title.align-center.pb-3.mbr-fonts-style.display-2 {
+  color: black; }

@@ -154,6 +154,8 @@ header {
     padding: 40px;
     text-align: center;
 
+    
+
     .topbar {
         display: flex;
         justify-content: space-between;
@@ -197,6 +199,8 @@ header {
 
 
 .home {
+
+
 
     .section-00 {
         @media screen and (max-width: 767px) {
@@ -1715,4 +1719,13 @@ footer {
     @media (max-width: 769px) {
         flex-direction: column;
     }
+}
+
+//Form Style Fixes
+.form-group {
+    color: #909090;
+}
+
+h2.mbr-section-title.align-center.pb-3.mbr-fonts-style.display-2 {
+    color: black;
 }
