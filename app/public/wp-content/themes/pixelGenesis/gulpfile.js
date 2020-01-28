@@ -1,3 +1,5 @@
+// @TODO Issue with gulp style min, having to call style min directly. 
+
 const { watch, series, gulp, src, dest } = require('gulp');
 const sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
@@ -9,6 +11,7 @@ const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const uglifyjs = require('gulp-uglifyjs');
+var cleaning = require('gulp-rimraf');
 
 
 sass.compiler = require('node-sass');
@@ -20,6 +23,8 @@ var config = {
 
 function clean(cb) {
     // body omitted
+    console.log('cleaning build')
+    return src("./content/build/*", { read: false }).pipe(cleaning());
     cb();
 }
 
@@ -92,4 +97,5 @@ watch('src/*.sass', styles);
 // watch('src/*.js', series(clean, javascript));
 };
 exports.clean = clean;
-exports.default = series(clean, styles, javascript, styleMin, jsmin);
+exports.styleMin = styleMin;
+exports.default = series(clean, styles, styleMin);

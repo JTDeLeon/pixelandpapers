@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Saira&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+//font-family: 'Open Sans Condensed', sans-serif;
+
 .blog-title {
-    color: red;
-    font-size: 30px;
-    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
     font-family: 'Saira', sans-serif;
 }
 
 .blog-main {
-    text-align: center;
+    text-align: left;
 }
 
 .wp-block-table {
-    width: 50%;
-    text-align: center;
+    text-align: left;
     margin: auto;
 
     strong {

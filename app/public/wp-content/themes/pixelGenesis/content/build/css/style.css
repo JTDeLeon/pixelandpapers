@@ -1,3 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Saira&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
+.blog-title {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Saira', sans-serif; }
+
+.blog-main {
+  text-align: left; }
+
+.wp-block-table {
+  text-align: left;
+  margin: auto; }
+  .wp-block-table strong {
+    font-size: 20px; }
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,700|Poppins:300,400|Roboto;400,700");
+body {
+  display: block;
+  margin: 0px; }
+
+.report-one .poppins {
+  font-family: 'Poppins', sans-serif; }
+
+.report-one .background-section {
+  background: teal;
+  background-size: cover;
+  background-position: center;
+  padding: 20px; }
+  @media screen and (min-width: 767px) {
+    .report-one .background-section {
+      padding: 80px; } }
+  .report-one .background-section .white-bkgd-frame {
+    max-width: 530px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 50px auto 50px;
+    padding: 1px 20px 10px; }
+    .report-one .background-section .white-bkgd-frame .white-bkgd {
+      max-width: 530px;
+      background: #fff;
+      margin: auto; }
+      .report-one .background-section .white-bkgd-frame .white-bkgd .header-text {
+        text-align: center;
+        color: #414042;
+        margin: 20px;
+        padding: 10px;
+        font-size: 2;
+        line-height: 1.2;
+        font-weight: 400; }
+        @media screen and (min-width: 768px) {
+          .report-one .background-section .white-bkgd-frame .white-bkgd .header-text {
+            font-size: 38px; } }
+      .report-one .background-section .white-bkgd-frame .white-bkgd ul {
+        margin: -10px 0px; }
+        .report-one .background-section .white-bkgd-frame .white-bkgd ul li {
+          background-image: url("../images/small-green-check.png");
+          padding: 5px 0 10px 30px;
+          background-repeat: no-repeat;
+          list-style: none;
+          font-family: "Open Sans", sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+          color: #414042; }
+  .report-one .background-section .content-container {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (min-width: 768px) {
+      .report-one .background-section .content-container {
+        flex-direction: row;
+        margin: -20px auto 20px;
+        max-width: 768px; } }
+    .report-one .background-section .content-container .left-container {
+      margin: auto;
+      width: 190px;
+      z-index: 10; }
+      @media screen and (min-width: 768px) {
+        .report-one .background-section .content-container .left-container {
+          width: 40%; } }
+      .report-one .background-section .content-container .left-container .book-desktop {
+        background: teal; }
+      .report-one .background-section .content-container .left-container img {
+        margin: 20px 0 -40px;
+        height: auto;
+        max-width: 100%; }
+        @media screen and (min-width: 768px) {
+          .report-one .background-section .content-container .left-container img {
+            position: absolute;
+            width: 120px;
+            margin-top: -65px;
+            margin-left: 40px;
+            margin-bottom: auto; } }
+    .report-one .background-section .content-container .right-container {
+      z-index: 100; }
+      @media screen and (min-width: 768px) {
+        .report-one .background-section .content-container .right-container {
+          width: 80%; } }
+      .report-one .background-section .content-container .right-container .description-container {
+        text-align: center;
+        padding: 0px 10px; }
+        @media screen and (min-width: 768px) {
+          .report-one .background-section .content-container .right-container .description-container {
+            text-align: left;
+            padding: 0 20px 0 0px; } }
+        .report-one .background-section .content-container .right-container .description-container a {
+          text-decoration: none; }
+        .report-one .background-section .content-container .right-container .description-container .small-descr {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 1.5;
+          color: #414042; }
+          @media screen and (min-width: 768px) {
+            .report-one .background-section .content-container .right-container .description-container .small-descr {
+              font-family: "Open Sans", sans-serif;
+              font-size: 19px; } }
+  .report-one .background-section .form {
+    padding: 0;
+    max-width: 385px;
+    margin: auto;
+    position: relative; }
+    .report-one .background-section .form .free-report-nl-signup {
+      padding: 0;
+      margin: 10px 0; }
+    .report-one .background-section .form .signup-box-v2 {
+      padding: 0; }
+    .report-one .background-section .form .subscribe-padding {
+      padding: 0 6px; }
+    .report-one .background-section .form .crkt-mc-webform-item .mc-field-item input {
+      text-align: left; }
+    .report-one .background-section .form .required::placeholder {
+      color: #58595b;
+      font-size: 14px;
+      text-align: left; }
+    .report-one .background-section .form .cta-button {
+      padding: 13px 8px !important;
+      margin: 0px auto;
+      width: 98%;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: .5px;
+      background-color: #18aec9;
+      box-sizing: border-box;
+      border: 4px inset #6cccdd;
+      border-radius: 10px;
+      cursor: pointer; }
+      @media screen and (max-width: 440px) {
+        .report-one .background-section .form .cta-button {
+          max-width: 68vw; } }
+      @media screen and (min-width: 470px) {
+        .report-one .background-section .form .cta-button {
+          width: 100%; } }
+    .report-one .background-section .form #cta-btn:hover {
+      background-color: #ffb911;
+      border: 4px inset #ffd368; }
+  .report-one .background-section .one-col-1130px {
+    max-width: 1022px;
+    margin: 0 auto;
+    padding-right: 14px;
+    padding-left: 14px; }
+  .report-one .background-section .free-report-nl-signup {
+    display: flex;
+    flex-direction: column; }
+  .report-one .background-section .crkt-mc-webform-item {
+    margin: 10px 0;
+    width: 100%; }
+    .report-one .background-section .crkt-mc-webform-item .mc-field-item {
+      border: 1px solid #18aec9; }
+      .report-one .background-section .crkt-mc-webform-item .mc-field-item input {
+        width: 92%;
+        text-align: center;
+        height: 40px;
+        font-size: 24px;
+        padding: .125em .5em; }
+  .report-one .background-section .newsletter-signup {
+    background-color: transparent;
+    padding: 0; }
+  .report-one .background-section .mc-content-wrap {
+    max-width: none;
+    margin: 0 auto;
+    width: 100%; }
+  .report-one .background-section .no-spam {
+    color: #414042;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 14px; }
+  .report-one .background-section input:focus {
+    outline: none; }
+
+.report-one .sqz-footer {
+  margin-top: 100px;
+  background: #f2f2f2 url("../images/footer-back.jpg");
+  padding: 0 20px; }
+  .report-one .sqz-footer ul {
+    margin-top: 135px;
+    padding: 40px;
+    text-align: center; }
+    .report-one .sqz-footer ul li {
+      z-index: 200;
+      float: none;
+      display: inline-block;
+      text-align: center;
+      margin-right: 1%;
+      list-style: none;
+      font-weight: 400; }
+      .report-one .sqz-footer ul li a {
+        color: black;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        font-weight: 700;
+        margin-top: -5px;
+        display: inline; }
+  .report-one .sqz-footer p {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    line-height: 1;
+    text-align: center;
+    margin: 13px auto 0px;
+    color: #000; }
+  .report-one .sqz-footer .footer-text {
+    max-width: 750px;
+    text-align: center;
+    margin: auto; }
+  .report-one .sqz-footer .customs {
+    max-width: 650px; }
+  .report-one .sqz-footer .address {
+    line-height: 18px;
+    font-weight: bold;
+    padding-bottom: 19px; }
+  .report-one .sqz-footer .return-span {
+    line-height: 24px;
+    font-size: 14px; }
+
 @font-face {
   font-family: BoldDisp;
   src: url("../../../lib/css/fonts/Sequel-Sans-Bold-Disp.otf") format("opentype"); }
