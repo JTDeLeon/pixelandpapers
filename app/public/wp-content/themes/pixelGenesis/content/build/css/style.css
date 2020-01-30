@@ -25,7 +25,7 @@ body {
   font-family: 'Poppins', sans-serif; }
 
 .report-one .background-section {
-  background: teal;
+  background-image: url("/wp-content/themes/pixelGenesis/content/images/AB-Testing-Bkgd.jpg");
   background-size: cover;
   background-position: center;
   padding: 20px; }
@@ -34,7 +34,7 @@ body {
       padding: 80px; } }
   .report-one .background-section .white-bkgd-frame {
     max-width: 530px;
-    background: rgba(255, 255, 255, 0.4);
+    background: #0cafd0;
     margin: 50px auto 50px;
     padding: 1px 20px 10px; }
     .report-one .background-section .white-bkgd-frame .white-bkgd {
@@ -55,7 +55,7 @@ body {
       .report-one .background-section .white-bkgd-frame .white-bkgd ul {
         margin: -10px 0px; }
         .report-one .background-section .white-bkgd-frame .white-bkgd ul li {
-          background-image: url("../images/small-green-check.png");
+          background-image: url("/wp-content/themes/pixelGenesis/content/images/small-green-check.png");
           padding: 5px 0 10px 30px;
           background-repeat: no-repeat;
           list-style: none;
@@ -69,7 +69,7 @@ body {
     @media screen and (min-width: 768px) {
       .report-one .background-section .content-container {
         flex-direction: row;
-        margin: -20px auto 20px;
+        margin: 50px auto;
         max-width: 768px; } }
     .report-one .background-section .content-container .left-container {
       margin: auto;
@@ -234,6 +234,13 @@ body {
   .report-one .sqz-footer .return-span {
     line-height: 24px;
     font-size: 14px; }
+
+.sub-tit {
+  font-family: "Open Sans",sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #414042; }
 
 @font-face {
   font-family: BoldDisp;

@@ -39,19 +39,21 @@
                                 <div class="white-bkgd-frame">
                                     <div class="white-bkgd">
                                         
-                                        <h3 class="header-text poppins">The Secret to Slowing Down the Effects of Aging and Living Longer</h3>
+                                        <h3 class="header-text poppins">Do you have questions about optimizing your website but not sure who to ask?</h3>
+                                        <p class="sub-tit">Do you want to learn the secrets behind A/B Testing and understand how testing increases revenue?</p>
+                                        <p class="sub-tit">We have answers to these questions and others in our <b><u>FREE REPORT!</u></b></p>
                                         
                                         <ul>
-                                            <li>Reduce the appearance of fine lines and wrinkles</li>
-                                            <li>Keep your arteries squeaky clean</li>
-                                            <li>Ease joint discomfort</li>
-                                            <li>Rev up your metabolism</li>
+                                            <li>What is A/B Testing?</li>
+                                            <li>How Does A/B Testing Help My Business?</li>
+                                            <li>How Can I Get to Know My Customer Better?</li>
+                                            <li>Is Customer Behavior Predictable?</li>
                                         </ul>
 
                                             <div class="content-container">
                                                 <div class="left-container">
 
-                                                    <img class="book-desktop" src="<?php bloginfo('stylesheet_directory'); ?>/content/reports/collagen/build/images/collagen-report-cover.png" alt="Collagen Free Report">
+                                                    <img class="book-desktop" src="<?php bloginfo('stylesheet_directory'); ?>/content/images/AB-Testing-Cover.jpg" alt="Collagen Free Report">
 
                                                 </div>
                                                 <div class="right-container">
@@ -62,7 +64,7 @@
                                                         </div>
 
                                                         <div class="description-container">
-                                                                <p class="small-descr"><u>Get your FREE copy of <i><b>The Miracle of Collagen: How to Reverse Aging, Get Glowing Skin, and Feel Great With This One Essential Nutrient!</b></i></u></p>
+                                                                <p class="small-descr"><u>Get your FREE <b>How to Use A/B Testing For Website Marketing Optimization</b> report NOW!</u></p>
                                                         </div>
                                                     </div>
                                                 </div>
