@@ -121,8 +121,7 @@
     <div class="container">
         <div class="inner-container" style="width: 72%;">
             <hr class="line" style="width: 69%;">
-            <div class="section-text align-center mbr-white mbr-fonts-style display-1">
-                    Little Agency, Big Design</div>
+            <div class="section-text align-center mbr-white mbr-fonts-style display-1">Systematically Optimizing your Website with an Intricate Data and Results-Driven Methodology</div>
             <hr class="line" style="width: 69%;">
         </div>
     </div>
@@ -139,9 +138,9 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">We believe that<div><strong>unforgettable creative&nbsp;</strong></div><div>is the most&nbsp;</div><div>powerful tool in business</div></h1>
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2"><strong>Understanding your audience and their behavior</strong> is the most powerful tool in business. </h1>
                 <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">
-                   We have helped shape some of the largest and smallest companies in operation today. By offering a no nonsense approach and a logical methodology to every project, we would like you to have the same opportunity.
+                Optimize the digital experience for your customers, and achieve the greatest return on your investment.  We helped shape the customer experience for some of the largest and newly launched businesses in operation, and we can help you too.</p><p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We work with our clients in an educational approach to understanding their customers, and let the results speak volumes.  Eliminate the digital guesswork today.
                 </p>
                 
             </div>
