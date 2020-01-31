@@ -16,6 +16,39 @@
   .wp-block-table strong {
     font-size: 20px; }
 
+.contact {
+  color: #241f21;
+  font-family: 'IBM Plex Sans', sans-serif;
+  max-width: 1400px;
+  margin: auto; }
+  .contact .centeredtxt {
+    text-align: center;
+    margin: 70px auto; }
+    .contact .centeredtxt .headlinetxt {
+      font-size: 40px;
+      margin-bottom: 0; }
+  .contact .flex {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (min-width: 1024px) {
+      .contact .flex {
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: row; } }
+    .contact .flex .left {
+      text-align: center; }
+      @media screen and (min-width: 1024px) {
+        .contact .flex .left {
+          width: 70%; } }
+    .contact .flex .right {
+      text-align: center; }
+      @media screen and (min-width: 1024px) {
+        .contact .flex .right {
+          width: 30%; } }
+
+[data-role="form-footer"] {
+  display: none; }
+
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,700|Poppins:300,400|Roboto;400,700");
 body {
   display: block;

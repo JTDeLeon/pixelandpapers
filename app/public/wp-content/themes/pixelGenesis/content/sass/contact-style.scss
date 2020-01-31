@@ -1,0 +1,48 @@
+
+.contact {
+    color: #241f21;
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 1400px;
+    margin: auto;
+
+    .centeredtxt {
+        text-align: center;
+        margin: 70px auto;
+        .headlinetxt {
+            font-size: 40px;
+            margin-bottom: 0;
+        }
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 1024px){
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+
+        .left {
+            text-align: center;
+            @media screen and (min-width: 1024px){
+                width: 70%;
+            }
+        }
+        .right {
+            text-align: center;
+            h3 {
+               
+            }
+
+            @media screen and (min-width: 1024px){
+                width: 30%;
+            }
+        }
+    }
+}
+
+[data-role="form-footer"] {
+    display: none;
+}
