@@ -41,7 +41,7 @@
                                         
                                         <h3 class="header-text poppins">Do you have questions about optimizing your website but not sure who to ask?</h3>
                                         <p class="sub-tit">Do you want to learn the secrets behind A/B Testing and understand how testing increases revenue?</p>
-                                        <p class="sub-tit">We have answers to these questions and others in our <b><u>FREE REPORT!</u></b></p>
+                                        <p class="sub-tit bott-sub-tit">We have answers<br/>to these questions and others in our<br/><b><u>FREE REPORT!</u></b></p>
                                         
                                         <ul>
                                             <li>What is A/B Testing?</li>
@@ -53,7 +53,7 @@
                                             <div class="content-container">
                                                 <div class="left-container">
 
-                                                    <img class="book-desktop" src="<?php bloginfo('stylesheet_directory'); ?>/content/images/AB-Testing-Cover.jpg" alt="Collagen Free Report">
+                                                    <img class="book-desktop" src="<?php bloginfo('stylesheet_directory'); ?>/content/images/AB-Testing-cover.png" alt="Collagen Free Report">
 
                                                 </div>
                                                 <div class="right-container">
@@ -137,29 +137,7 @@
                 </div><!-- .col-full -->
             </div><!-- #content -->
         </div><!-- #page -->
-        <?php get_template_part('content/common-assets/php/footer-sqz'); ?>
-        <?php echo do_shortcode('[pixels show="hotjar|gl|fb|vwo|om|pap|gtm|maro|rev" type="click"]'); ?>
-         <?php 
-        if(isset($_GET['aff'])) {
-            $parameter = $_GET['aff'];
-
-            if($parameter == 'ithrive'){
-                echo do_shortcode("[optin name='first_name' email='email' form='.newsletter-signup' redirect='" . home_url('/collagens/?aff=ithrive&landing=radio') . "' tags='csc-free-report' pap_product_id='lead-csc-free-report']");
-            }
-            else if($parameter == 'thm'){
-                echo do_shortcode("[optin name='first_name' email='email' form='.newsletter-signup' redirect='" . home_url('/collagens/?aff=thm&landing=radio') . "' tags='csc-free-report' pap_product_id='lead-csc-free-report']");
-            }
-            else if($parameter == 'tsp'){
-                echo do_shortcode("[optin name='first_name' email='email' form='.newsletter-signup' redirect='" . home_url('/collagens/?aff=tsp&landing=radio') . "' tags='csc-free-report' pap_product_id='lead-csc-free-report']");
-            }
-            else {
-                echo do_shortcode("[optin name='first_name' email='email' form='.newsletter-signup' redirect='" . home_url('/collagens?landing=radio') . "' tags='csc-free-report' pap_product_id='lead-csc-free-report']");
-            }
-        } 
-        else {
-            echo do_shortcode("[optin name='first_name' email='email' form='.newsletter-signup' redirect='" . home_url('/collagens?landing=radio') . "' tags='csc-free-report' pap_product_id='lead-csc-free-report']");
-        }
-        ?>
+        
         <!-- wp_footer -->
         <?php wp_footer(); ?>
         <!-- /wp_footer -->

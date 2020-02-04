@@ -62,9 +62,6 @@ body {
   background-size: cover;
   background-position: center;
   padding: 20px; }
-  @media screen and (min-width: 767px) {
-    .report-one .background-section {
-      padding: 80px; } }
   .report-one .background-section .white-bkgd-frame {
     max-width: 530px;
     background: #0cafd0;
@@ -73,22 +70,23 @@ body {
     .report-one .background-section .white-bkgd-frame .white-bkgd {
       max-width: 530px;
       background: #fff;
-      margin: auto; }
+      margin: auto;
+      padding: 0 10px; }
       .report-one .background-section .white-bkgd-frame .white-bkgd .header-text {
         text-align: center;
-        color: #414042;
+        color: #f89200;
         margin: 20px;
         padding: 10px;
-        font-size: 2;
+        font-size: 29px;
         line-height: 1.2;
-        font-weight: 400; }
+        font-weight: 600; }
         @media screen and (min-width: 768px) {
           .report-one .background-section .white-bkgd-frame .white-bkgd .header-text {
-            font-size: 38px; } }
+            font-size: 29px; } }
       .report-one .background-section .white-bkgd-frame .white-bkgd ul {
         margin: -10px 0px; }
         .report-one .background-section .white-bkgd-frame .white-bkgd ul li {
-          background-image: url("/wp-content/themes/pixelGenesis/content/images/small-green-check.png");
+          background-image: url("/wp-content/themes/pixelGenesis/content/images/small-orange-check.png");
           padding: 5px 0 10px 30px;
           background-repeat: no-repeat;
           list-style: none;
@@ -99,11 +97,6 @@ body {
   .report-one .background-section .content-container {
     display: flex;
     flex-direction: column; }
-    @media screen and (min-width: 768px) {
-      .report-one .background-section .content-container {
-        flex-direction: row;
-        margin: 50px auto;
-        max-width: 768px; } }
     .report-one .background-section .content-container .left-container {
       margin: auto;
       width: 190px;
@@ -117,25 +110,12 @@ body {
         margin: 20px 0 -40px;
         height: auto;
         max-width: 100%; }
-        @media screen and (min-width: 768px) {
-          .report-one .background-section .content-container .left-container img {
-            position: absolute;
-            width: 120px;
-            margin-top: -65px;
-            margin-left: 40px;
-            margin-bottom: auto; } }
     .report-one .background-section .content-container .right-container {
-      z-index: 100; }
-      @media screen and (min-width: 768px) {
-        .report-one .background-section .content-container .right-container {
-          width: 80%; } }
+      z-index: 100;
+      margin-top: 20px; }
       .report-one .background-section .content-container .right-container .description-container {
         text-align: center;
         padding: 0px 10px; }
-        @media screen and (min-width: 768px) {
-          .report-one .background-section .content-container .right-container .description-container {
-            text-align: left;
-            padding: 0 20px 0 0px; } }
         .report-one .background-section .content-container .right-container .description-container a {
           text-decoration: none; }
         .report-one .background-section .content-container .right-container .description-container .small-descr {
@@ -272,8 +252,12 @@ body {
   font-family: "Open Sans",sans-serif;
   font-size: 20px;
   font-weight: 300;
+  margin: 20px;
   text-align: center;
   color: #414042; }
+
+.bott-sub-tit {
+  margin-bottom: 50px; }
 
 @font-face {
   font-family: BoldDisp;
@@ -1525,7 +1509,7 @@ footer {
   color: black; }
 
 .signup-title-footer {
-  margin-top: 50px;
+  margin-top: 0px;
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 15px;

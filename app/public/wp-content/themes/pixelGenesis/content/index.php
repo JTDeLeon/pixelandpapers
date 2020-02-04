@@ -160,7 +160,7 @@
             <div class="media-container">
                 <div class="col-md-12 align-center">
                     <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1"></h1>
-                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-1">We are a global marketing, advertising and design company.</p>
+                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-1">We are a global marketing, web design and testing agency specializing in optimizing user experience.</p>
                     
 
                     <div class="icons-media-container mbr-white">
@@ -170,7 +170,7 @@
                                 <span class="mbr-iconfont mbri-image-gallery" style="color: rgb(255, 255, 255);"></span>
                             </a>
                             </div>
-                            <h5 class="mbr-fonts-style display-5">Advertising</h5>
+                            <h5 class="mbr-fonts-style display-5">Marketing</h5>
                         </div>
 
                         <div class="card col-12 col-md-6 col-lg-3">
@@ -179,7 +179,7 @@
                                     <span class="mbr-iconfont mbri-idea" style="color: rgb(255, 255, 255);"></span>
                                 
                             </div>
-                            <h5 class="mbr-fonts-style display-5">Branding</h5>
+                            <h5 class="mbr-fonts-style display-5">Web Design</h5>
                         </div>
 
                         <div class="card col-12 col-md-6 col-lg-3">
@@ -197,7 +197,7 @@
                                     <span class="mbr-iconfont mbri-devices" style="color: rgb(255, 255, 255);"></span>
                                 
                             </div>
-                            <h5 class="mbr-fonts-style display-5">Web</h5>
+                            <h5 class="mbr-fonts-style display-5">A/B testing</h5>
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">Brands we’ve loved to have worked with.</h1>
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">Brands we love, and have worked with.</h1>
                 
                 
             </div>
@@ -328,7 +328,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="social-list align-right">
-                            <!--
+                            
                             <div class="soc-item">
                                 <a href="https://twitter.com/" target="_blank">
                                     <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
@@ -351,7 +351,7 @@
                                     <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
-                            -->
+                            
                             <!--
                             <div class="soc-item">
                                 <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
