@@ -341,8 +341,8 @@
                             </div>
                             
                             <div class="soc-item">
-                                <a href="https://www.youtube.com/" target="_blank">
-                                    <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
                             

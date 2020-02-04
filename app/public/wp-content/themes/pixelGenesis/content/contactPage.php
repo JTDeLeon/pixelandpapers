@@ -20,6 +20,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/style.min.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/socicon/css/styles.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/mobirise/css/mbr-additional.css" type="text/css">
 
         <!-- wp_head -->
         <?php wp_head(); ?>
@@ -38,8 +40,8 @@
                                 <!-- Header Goes Here -->
 
                                 <div class="centeredtxt">
-                                    <h1 class="headlinetxt">Get in touch</h1>
-                                    <p>Want to find out how Pixel and Papers can solve problems specific to your business? Let's talk.</p>
+                                    <h1 class="headlinetxt">Get Connected</h1>
+                                    <p>Get tips and tricks for your wesbite, directly from the experts at Pixel and Papers.</p>
                                 </div>
 
                                 <div class="flex">
@@ -50,11 +52,49 @@
                                     </div>
                                     <div class="right">
                                         <h3>Other ways to connect</h3>
-                                        <p>Call, email, send us a postcard — whatever works for you. We'll be here.</p>
+                                        <p>Call, email, or connect with us on social media.</p>
                                         <div>
-                                            <p>Phone</p>
-                                            <p>Email</p>
-                                            <p>Address</p>
+                                            <p>Phone: <b>(650) 382-3807</b></p>
+                                            <p>Email: <b>Sharon@pixelandpapers.com</b></p>
+                                        </div>
+
+                                        <div class="social-list align-right">
+                            
+                                            <div class="soc-item">
+                                                <a href="https://twitter.com/" target="_blank">
+                                                    <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            <div class="soc-item">
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="soc-item">
+                                                <a href="https://www.youtube.com/" target="_blank">
+                                                    <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="soc-item">
+                                                <a href="https://instagram.com/" target="_blank">
+                                                    <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <!--
+                                            <div class="soc-item">
+                                                <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                                    <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            <div class="soc-item">
+                                                <a href="https://www.behance.net/Mobirise" target="_blank">
+                                                    <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                                                </a>
+                                            </div>
+                                            -->
                                         </div>
                                     </div>
                                 </div>

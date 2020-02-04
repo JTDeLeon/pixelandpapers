@@ -17,6 +17,9 @@
     font-size: 20px; }
 
 .contact {
+  background-image: url("/wp-content/themes/pixelGenesis/content/images/Contact.png");
+  background-size: cover;
+  background-position: center;
   color: #241f21;
   font-family: 'IBM Plex Sans', sans-serif;
   max-width: 1400px;
@@ -41,13 +44,20 @@
         .contact .flex .left {
           width: 70%; } }
     .contact .flex .right {
-      text-align: center; }
+      text-align: center;
+      background: white;
+      padding: 30px; }
       @media screen and (min-width: 1024px) {
         .contact .flex .right {
-          width: 30%; } }
+          width: 30%;
+          margin-top: 80px; } }
 
 [data-role="form-footer"] {
   display: none; }
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly; }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,700|Poppins:300,400|Roboto;400,700");
 body {
