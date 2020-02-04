@@ -359,3 +359,16 @@ $black: #010101;
     margin-bottom: 50px;
 }
 
+
+.mc-field-item {
+    border: 1px solid #18aec9;
+    margin: 10px 0;
+    input {
+        width: 92.6%;
+        text-align: center;
+        height: 40px;
+        font-size: 24px;
+        padding: .125em .5em;
+        text-align: left;
+    }
+}

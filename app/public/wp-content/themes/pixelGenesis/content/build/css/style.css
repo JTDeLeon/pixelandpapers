@@ -269,6 +269,17 @@ body {
 .bott-sub-tit {
   margin-bottom: 50px; }
 
+.mc-field-item {
+  border: 1px solid #18aec9;
+  margin: 10px 0; }
+  .mc-field-item input {
+    width: 92.6%;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    padding: .125em .5em;
+    text-align: left; }
+
 @font-face {
   font-family: BoldDisp;
   src: url("../../../lib/css/fonts/Sequel-Sans-Bold-Disp.otf") format("opentype"); }
