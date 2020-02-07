@@ -140,7 +140,12 @@
             <div class="mbr-white col-md-10">
                 <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2"><strong>Understanding your audience and their behavior</strong> is the most powerful tool in business. </h1>
                 <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">
-                Optimize the digital experience for your customers, and achieve the greatest return on your investment.  We helped shape the customer experience for some of the largest and newly launched businesses in operation, and we can help you too.</p><p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We work with our clients in an educational approach to understanding their customers, and let the results speak volumes.  Eliminate the digital guesswork today.
+                Here at Pixel & Papers, our team is dedicated to optimizing the digital experience for your valued customers. Our companies pride lies in getting you on track to achieve the greatest return on your investment in us.</p>
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We’ve built relationships with some of the largest and newly launched businesses, by shaping customer experience and changing the way these businesses utilize their platform.
+                </p>
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">Our client relationship is built on an educational approach, where they teach us about their customers and we provide them with results.
+                </p>
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">Eliminate the digital guesswork today and let us help you maximize your profits
                 </p>
                 
             </div>
@@ -330,24 +335,24 @@
                         <div class="social-list align-right">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/" target="_blank">
+                                <a href="https://twitter.com/PapersPixel" target="_blank">
                                     <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/Pixel-and-Papers-109608633753757/" target="_blank">
                                     <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
                             
                             <div class="soc-item">
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/company/pixel-and-papers/" target="_blank">
                                     <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
                             
                             <div class="soc-item">
-                                <a href="https://instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/pixel_and_papers/" target="_blank">
                                     <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>

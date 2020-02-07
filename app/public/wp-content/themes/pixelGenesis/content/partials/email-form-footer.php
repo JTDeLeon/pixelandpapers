@@ -7,7 +7,7 @@
     </style>
     <div id="mc_embed_signup">
     <br>
-    <h3 class="signup-title-footer">Sign Up To Our Email List To Be Sent AB Testing Optimization Tips and Tricks!</h3>
+    <h3 class="signup-title-footer">Sign Up For Our Email List And You'll Receive Our Top Tips And Tricks For AB Testing!</h3>
     <form action="https://pixelandpapers.us4.list-manage.com/subscribe/post?u=e21acaf2745039cda5b1de256&amp;id=d88b200ae6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
         
