@@ -61,24 +61,24 @@
                                         <div class="social-list align-right">
                             
                                             <div class="soc-item">
-                                                <a href="https://twitter.com/" target="_blank">
+                                                <a href="https://twitter.com/PapersPixel" target="_blank">
                                                     <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                                                 </a>
                                             </div>
                                             <div class="soc-item">
-                                                <a href="https://www.facebook.com/" target="_blank">
+                                                <a href="https://www.facebook.com/Pixel-and-Papers-109608633753757/" target="_blank">
                                                     <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                                                 </a>
                                             </div>
                                             
                                             <div class="soc-item">
-                                                <a href="https://www.youtube.com/" target="_blank">
+                                                <a href="https://www.linkedin.com/company/pixel-and-papers/" target="_blank">
                                                     <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
                                                 </a>
                                             </div>
                                             
                                             <div class="soc-item">
-                                                <a href="https://instagram.com/" target="_blank">
+                                                <a href="https://www.instagram.com/pixel_and_papers/" target="_blank">
                                                     <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                                                 </a>
                                             </div>

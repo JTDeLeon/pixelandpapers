@@ -121,7 +121,7 @@
     <div class="container">
         <div class="inner-container" style="width: 72%;">
             <hr class="line" style="width: 69%;">
-            <div class="section-text align-center mbr-white mbr-fonts-style display-1">Systematically Optimizing your Website with an Intricate Data and Results-Driven Methodology</div>
+            <div class="section-text align-center mbr-white mbr-fonts-style display-1">Our mission is to optimize your website based on the methodology from tested and proven results</div>
             <hr class="line" style="width: 69%;">
         </div>
     </div>
@@ -221,7 +221,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">Brands we love, and have worked with.</h1>
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">We've had the pleasure the represent these amazing companies.</h1>
                 
                 
             </div>
