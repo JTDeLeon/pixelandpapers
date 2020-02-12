@@ -140,13 +140,12 @@
             <div class="mbr-white col-md-10">
                 <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2"><strong>Understanding your audience and their behavior</strong> is the most powerful tool in business. </h1>
                 <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">
-                Here at Pixel & Papers, our team is dedicated to optimizing the digital experience for your valued customers. Our companies pride lies in getting you on track to achieve the greatest return on your investment in us.</p>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We’ve built relationships with some of the largest and newly launched businesses, by shaping customer experience and changing the way these businesses utilize their platform.
+                Here at Pixel & Papers, our team is dedicated to optimizing the digital experience for valued customers everywhere. Our company's pride lies in getting you on track to achieve the greatest return on investment for your business and with Pixel & Papers.</p>
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We’ve built relationships with some of the largest, newly-launched businesses by improving customer engagement platforms. This process begins with an educational approach. We want you to teach us about your customers, so our team can determine which platform is best suited for your website.
                 </p>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">Our client relationship is built on an educational approach, where they teach us about their customers and we provide them with results.
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">You could be maximizing your profits right now, by eliminating digital guesswork and getting started with Pixel & Papers.
                 </p>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">Eliminate the digital guesswork today and let us help you maximize your profits
-                </p>
+                <!-- <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style"></p> -->
                 
             </div>
         </div>
