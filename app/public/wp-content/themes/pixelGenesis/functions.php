@@ -44,3 +44,15 @@ function ns_google_analytics() { ?>
     }
     
     add_action( 'wp_head', 'ns_google_analytics', 10 );
+
+
+// function select_theme( $current_theme ) {
+//     if ( 'http://pixelandpapers.local/' === $_SERVER['HTTP_HOST']) {
+//         return 'Pixel&Papers Genesis';
+//     } else {
+//         return 'Type';
+//     }
+// }
+    
+//     add_filter( 'stylesheet', 'select_theme' );
+//     add_filter( 'template', 'select_theme' );

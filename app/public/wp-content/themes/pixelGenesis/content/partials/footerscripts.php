@@ -1,0 +1,12 @@
+<script src="<?php echo get_template_directory_uri() . '/content/assets/web/assets/jquery/jquery.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/popper/popper.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/tether/tether.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/bootstrap/js/bootstrap.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/smoothscroll/smooth-scroll.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/dropdown/js/script.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/touchswipe/jquery.touch-swipe.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/viewportchecker/jquery.viewportchecker.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/parallax/jarallax.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/vimeoplayer/jquery.mb.vimeo_player.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/theme/js/script.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/content/assets/formoid/formoid.min.js' ?>"></script>
