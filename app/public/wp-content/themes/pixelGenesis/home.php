@@ -38,7 +38,40 @@
     <section id="primary" class="site-content max-width-fifteenhundred">
         <div id="content" role="main">
             <div class="blog-header-container">
-                blog header
+                <div class="blog-container-inner">
+                    <h1 class="blog-title-name">Pixel And Papers Blog</h1>
+                    <div class='social-icons-blog'>
+                        <div class="soc-item">
+                            <a href="https://twitter.com/PapersPixel" target="_blank">
+                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.facebook.com/Pixel-and-Papers-109608633753757/" target="_blank">
+                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        
+                        <div class="soc-item">
+                            <a href="https://www.linkedin.com/company/pixel-and-papers/" target="_blank">
+                                <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        
+                        <div class="soc-item">
+                            <a href="https://www.instagram.com/pixel_and_papers/" target="_blank">
+                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-articles-container">
+                <div class="feat-art feat-one">
+                    <a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                <div class="feat-art feat-two"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                <div class="feat-art feat-three"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
             </div>
 
             <?php
