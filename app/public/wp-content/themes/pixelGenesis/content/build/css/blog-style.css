@@ -15,3 +15,8 @@
   margin: auto; }
   .wp-block-table strong {
     font-size: 20px; }
+
+.max-width-fifteenhundred {
+  max-width: 1500px;
+  margin: auto;
+  background: transparent; }

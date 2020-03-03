@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/socicon/css/styles.css' ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/theme/css/style.css' ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/mobirise/css/mbr-additional.css' ?>" type="text/css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/build/css/blog-style.css' ?>" type="text/css">
   <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/build/css/style.min.css" type="text/css' ?>"> -->
 
   
@@ -34,7 +35,7 @@
 <body>
     <?php include 'content/partials/pixelheader.php' ?>
 
-    <section id="primary" class="site-content">
+    <section id="primary" class="site-content max-width-fifteenhundred">
         <div id="content" role="main">
             <p>Hello</p>
 

@@ -9,21 +9,35 @@
 
 function customEnqueue() {
   $build_dir = '/content/build';
-  wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/style.min.css', array(), '20190403' );
+  wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/style.css', array(), '20190403' );
   wp_enqueue_script('pixelApp', get_stylesheet_directory_uri() . $build_dir . '/js/scripts.min.js', [], '20190626', true);
+  
+  wp_enqueue_style('mobi1', get_template_directory_uri() . '/content/assets/web/assets/mobirise-icons/mobirise-icons.css', array(), '20190403' );
+  wp_enqueue_style('mobi2', get_template_directory_uri() . '/content/assets/tether/tether.min.css', array(), '20190403' );
+  wp_enqueue_style('mobi3', get_template_directory_uri() . '/content/assets/bootstrap/css/bootstrap.min.css', array(), '20190403' );
+  wp_enqueue_style('mobi4', get_template_directory_uri() . '/content/assets/bootstrap/css/bootstrap-grid.min.css', array(), '20190403' );
+  wp_enqueue_style('mobi5', get_template_directory_uri() . '/content/assets/bootstrap/css/bootstrap-reboot.min.css', array(), '20190403' );
+  wp_enqueue_style('mobi6', get_template_directory_uri() . '/content/assets/dropdown/css/style.css', array(), '20190403' );
+  wp_enqueue_style('mobi7', get_template_directory_uri() . '/content/assets/animatecss/animate.min.css', array(), '20190403' );
+  wp_enqueue_style('mobi8', get_template_directory_uri() . '/content/assets/socicon/css/styles.css', array(), '20190403' );
+  wp_enqueue_style('mobi9', get_template_directory_uri() . '/content/assets/theme/css/style.css', array(), '20190403' );
+  wp_enqueue_style('mobi10', get_template_directory_uri() . '/content/assets/mobirise/css/mbr-additional.css', array(), '20190403' );
 }
 add_action( 'wp_enqueue_scripts', 'customEnqueue' );
 
 
 
  //Genesis Template Styles
-    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/style.css', null, null, 'all');
+    // wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/style.css', null, null, 'all');
 
 wp_head();
 
 get_header(); ?>
+
+<style>.site-header { display: none;}</style>
+<?php include 'content/partials/pixelheader.php' ?>
  
-    <div id="primary" class="content-area">
+    <div id="primary" class="content-area max-width-fifteenhundred">
         <main id="main" class="site-main blog-main" role="main">
  
         <?php
@@ -62,5 +76,6 @@ get_header(); ?>
  
         </main><!-- .site-main -->
     </div><!-- .content-area -->
+    <?php include 'content/partials/footerscripts.php' ?>
  
 <?php get_footer(); ?>
