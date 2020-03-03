@@ -19,10 +19,11 @@
        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/style.min.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/style.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/contact-style.css" type="text/css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/socicon/css/styles.css" type="text/css">
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/mobirise/css/mbr-additional.css" type="text/css">
-
+        <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/mobirise/css/mbr-additional.css" type="text/css"> -->
+        <?php include 'partials/navBarStyles.php' ?>
         <!-- wp_head -->
         <?php wp_head(); ?>
         <!-- /wp_head -->
@@ -38,6 +39,7 @@
                             <!-- START Page Build -->
                             <section class="background-section">
                                 <!-- Header Goes Here -->
+                                <?php include 'partials/pixelheader.php' ?>
 
                                 <div class="centeredtxt">
                                     <h1 class="headlinetxt">Get Connected</h1>

@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/content/assets/images/favicon-122x113.png' ?>" type="image/x-icon">
   <meta name="description" content="">
-  <title>Home</title>
+  <title>Pixel And Paper Blog</title>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/web/assets/mobirise-icons/mobirise-icons.css' ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/tether/tether.min.css' ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/bootstrap/css/bootstrap.min.css' ?>">
@@ -37,7 +37,9 @@
 
     <section id="primary" class="site-content max-width-fifteenhundred">
         <div id="content" role="main">
-            <p>Hello</p>
+            <div class="blog-header-container">
+                blog header
+            </div>
 
             <?php
  

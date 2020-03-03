@@ -24,12 +24,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                 <li class="nav-item">
-                    <a class="nav-link link text-black display-4" target="_blank" href="<?php echo get_site_url() . '/contact' ?>">
+                    <a class="nav-link link text-black display-4" href="<?php echo get_site_url() . '/contact' ?>">
                         Contact
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-black display-4" target="_blank" href="/blog">
+                    <a class="nav-link link text-black display-4" href="/blog">
                         Blog
                     </a>
                 </li>

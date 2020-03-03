@@ -9,6 +9,7 @@
 
 function customEnqueue() {
   $build_dir = '/content/build';
+  wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/blog-style.css', array(), '20190403' );
   wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/style.css', array(), '20190403' );
   wp_enqueue_script('pixelApp', get_stylesheet_directory_uri() . $build_dir . '/js/scripts.min.js', [], '20190626', true);
   
