@@ -146,8 +146,8 @@
                             <span>About Us</span>
                             <div class="line"></div>
                         </h3>
-                        <div class="flex">
-                            <img class="mauto" src="/wp-content/themes/pixelGenesis/content/images/image.png" alt="">
+                        <div class="flex whundred">
+                            <img class="mauto whundred" src="/wp-content/themes/pixelGenesis/content/images/black-logo.png" alt="">
 
                         </div>
                         
