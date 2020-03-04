@@ -50,6 +50,12 @@
 
 .featured-articles-container {
   padding: 20px; }
+  @media only screen and (min-width: 1024px) {
+    .featured-articles-container {
+      padding: 20px 0; } }
+  @media only screen and (min-width: 768px) {
+    .featured-articles-container {
+      display: flex; } }
   .featured-articles-container .feat-art {
     position: relative;
     height: 200px;
@@ -82,13 +88,42 @@
         color: white; }
   .featured-articles-container .feat-one {
     background-image: url("https://www.designlabthemes.com/preview/type/files/2017/07/red-792139_1920-1024x683.jpg"); }
-  .featured-articles-container .feat-two {
+    @media only screen and (min-width: 768px) {
+      .featured-articles-container .feat-one {
+        height: 400px;
+        width: 50%; } }
+  @media only screen and (min-width: 768px) {
+    .featured-articles-container .second-col {
+      padding-left: 20px;
+      width: 50%;
+      margin: auto; } }
+  .featured-articles-container .second-col .feat-two {
     background-image: url(https://www.designlabthemes.com/preview/type/files/2017/07/cake-1839134_1920-1024x683.jpg); }
-  .featured-articles-container .feat-three {
+    @media only screen and (min-width: 768px) {
+      .featured-articles-container .second-col .feat-two {
+        height: 190px; } }
+  .featured-articles-container .second-col .feat-three {
     background-image: url(https://www.designlabthemes.com/preview/type/files/2017/07/mobile-791164-1024x683.jpg); }
+    @media only screen and (min-width: 768px) {
+      .featured-articles-container .second-col .feat-three {
+        height: 190px; } }
+
+@media only screen and (min-width: 1024px) {
+  .two-column {
+    display: flex;
+    padding-top: 20px; } }
 
 .recent-posts {
   padding: 20px; }
+  @media only screen and (min-width: 1024px) {
+    .recent-posts {
+      width: 70%;
+      padding: 0;
+      padding-right: 20px; } }
+  @media only screen and (min-width: 768px) {
+    .recent-posts .post {
+      display: flex;
+      padding: 20px 0; } }
   .recent-posts .blog-title-rp {
     text-align: center;
     font-size: 1.50rem;
@@ -100,21 +135,39 @@
     line-height: 1.25;
     text-align: center;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    @media only screen and (min-width: 768px) {
+      .recent-posts .blog-title-rp {
+        text-align: left; } }
     .recent-posts .blog-title-rp a {
       color: black;
       font-size: 1.50rem;
       font-weight: 700;
       text-transform: uppercase; }
+  @media only screen and (min-width: 768px) {
+    .recent-posts .image-link-container-rp {
+      width: 20%; } }
   .recent-posts .image-link-container-rp .image-rp {
     width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .recent-posts .post-content {
+      width: 80%;
+      padding-left: 40px; } }
   .recent-posts .flex {
     display: flex; }
   .recent-posts .dateandauthor-rp {
     text-align: center;
     margin: 15px auto; }
+    @media only screen and (min-width: 768px) {
+      .recent-posts .dateandauthor-rp {
+        margin-left: 0;
+        margin-top: 0; } }
 
 .sidebar {
   padding: 20px; }
+  @media only screen and (min-width: 1024px) {
+    .sidebar {
+      width: 30%;
+      padding: 0; } }
   .sidebar .widget-title {
     margin: 0 0 20px;
     padding: 0;
@@ -136,6 +189,9 @@
       margin-top: 10px;
       margin-left: 90px;
       overflow: hidden; }
+      @media only screen and (min-width: 1024px) {
+        .sidebar .widget-title .line {
+          width: 20%; } }
   .sidebar .signup form {
     margin-bottom: 30px; }
   .sidebar .signup .button {
@@ -158,3 +214,14 @@
     width: 100%; }
   .sidebar .signup .tcenter {
     text-align: center; }
+  .sidebar .about-us .about-content {
+    padding: 20px 0; }
+  .sidebar .about-us .flex {
+    display: flex; }
+  .sidebar .cta-sect {
+    width: 100%;
+    padding-bottom: 20px; }
+    .sidebar .cta-sect img {
+      width: 100%; }
+  .sidebar .categories li {
+    list-style: none; }

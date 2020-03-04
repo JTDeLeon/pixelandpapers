@@ -70,8 +70,12 @@
             <div class="featured-articles-container">
                 <div class="feat-art feat-one">
                     <a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
-                <div class="feat-art feat-two"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
-                <div class="feat-art feat-three"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                
+                    <div class="second-col">
+                        <div class="feat-art feat-two"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                
+                        <div class="feat-art feat-three"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                    </div>
             </div>
 
 
@@ -90,17 +94,22 @@
                         while($post_query->have_posts() ) {
                             $post_query->the_post();
                             ?>
+                            <div class="post">
                             <a class="image-link-container-rp" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
                                 <img class="image-rp" src="<?echo get_the_post_thumbnail_url()?>" alt="<?php the_title_attribute(); ?>">
                             </a>
 
+                            <div class="post-content">
                             <div class="flex">
                                 <small class="dateandauthor-rp"><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
                             </div>
 
                             <h2 class="blog-title-rp"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                             <p><?php echo get_the_excerpt() . ' [...] '?>  <a class="image-link-container-rp" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More</a></p>
+                            </div>
+                            </div>
                             <?php
+
                             }
                         }
                 ?>
@@ -128,7 +137,7 @@
                             </div>    
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e21acaf2745039cda5b1de256_d88b200ae6" tabindex="-1" value=""></div>
                                 <div class="clear mauto">
-                                    <input type="submit" value="YES! SEND ME MY FREE REPORT!" name="subscribe" id="mc-embedded-subscribe" class="button cta-button"></div>
+                                    <input type="submit" value="YES! SIGN ME UP!" name="subscribe" id="mc-embedded-subscribe" class="button cta-button"></div>
                                    
                         </form>
                     </div>
@@ -137,18 +146,41 @@
                             <span>About Us</span>
                             <div class="line"></div>
                         </h3>
+                        <div class="flex">
+                            <img class="mauto" src="/wp-content/themes/pixelGenesis/content/images/image.png" alt="">
+
+                        </div>
+                        
+                        <div class="about-content">
+                            <p>Pixel and Papers was founded on the principles of helping organizations achieve marketing goals with innovative solutions and an educational approach.  Together, we are crafting digital environments that engage audiences, generate valuable leads, and help businesses thrive.</p>
+                            <p>We're different from other agencies - we have the spirit of a startup, the capabilities of a large firm, and the talent to get the job done. It's what keeps our clients coming back, and it's what inspires other organizations to reach out to us.</p>
+                            <p>We see the bigger picture. A lucrative web presence has harmonious attributes:  aesthetics, function, content, and visibility. Our team has the knowledge and experience to help you achieve the best flow for your audience.</p>
+                            <p>It's all about our clients. The client experience is always priority to our Team. We take pride in our work and our client relationships, and have our portfolio of award-winning design, development, and marketing projects as a testament to our success.</p>
+                            <p>Our team rocks. Our skilled and creative family of designers, engineers, and marketing experts are talented professionals in their respective fields. We are passionate about what we do, and are committed to delivering strategy to accelerate your web presence and achieve a return on your investment.</p>
+                            <p>Get in touch with us to learn more about how Pixel and Papers can optimize your website</p>
+                        </div>
                     </div>
                     <div class="cta-sect widget">
                         <h3 class="widget-title">
                             <span>Our Gift</span>
                             <div class="line"></div>
                         </h3>
+                        <div class="cta-container">
+                            <a href="https://pixelandpapers.com/how-to-use-a-b-testing-for-website-marketing-optimization" target="_blank"><img src="/wp-content/themes/pixelGenesis/content/images/blog-cta.png" alt=""></a>
+                        </div>
                     </div>
                     <div class="categories widget">
                         <h3 class="widget-title">
                             <span>Categories</span>
                             <div class="line"></div>
                         </h3>
+                        
+                        <?php wp_list_categories(array(
+                            'orderby'    => 'name',
+                            'show_count' => true,
+                            'exclude'    => array( 10 ),
+                            'title_li' => ''
+                        )) ?>
                     </div>
                 </div>
 
