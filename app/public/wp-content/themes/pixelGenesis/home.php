@@ -69,12 +69,12 @@
 
             <div class="featured-articles-container">
                 <div class="feat-art feat-one">
-                    <a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                    <a class="featured-link" href="https://pixelandpapers.com/demand-engagement-content"></a><div class="overlay-txt"><h2>Consumers Need For Engagement is Changing the Market Landscape</h2></div></div>
                 
                     <div class="second-col">
-                        <div class="feat-art feat-two"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                        <div class="feat-art feat-two"><a class="featured-link" href="https://pixelandpapers.com/improving-customer-engament-skills"></a><div class="overlay-txt"><h2>Why This New Decade is Crucial for Customer Satisfaction</h2></div></div>
                 
-                        <div class="feat-art feat-three"><a class="featured-link" href="#"></a><div class="overlay-txt"><h2>Featured Article Title</h2></div></div>
+                        <div class="feat-art feat-three"><a class="featured-link" href="https://pixelandpapers.com/reach-target-market"></a><div class="overlay-txt"><h2>Reach A Target Market... That is Gen Z</h2></div></div>
                     </div>
             </div>
 
