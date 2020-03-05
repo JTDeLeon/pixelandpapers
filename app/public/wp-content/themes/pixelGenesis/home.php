@@ -95,7 +95,7 @@
                             $post_query->the_post();
                             ?>
                             <div class="post">
-                            <a class="image-link-container-rp" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                            <a class="image-link-container-rp" href="<?php echo the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
                                 <img class="image-rp" src="<?echo get_the_post_thumbnail_url()?>" alt="<?php the_title_attribute(); ?>">
                             </a>
 
