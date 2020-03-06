@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/theme/css/style.css' ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/assets/mobirise/css/mbr-additional.css' ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/build/css/blog-style.css' ?>" type="text/css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/build/css/footer-styles.css' ?>" type="text/css">
   <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/content/build/css/style.min.css" type="text/css' ?>"> -->
 
   
@@ -248,7 +249,7 @@
         </div>
     </section>
 
-
+    <?php include 'content/partials/footer.php' ?>
     <?php include 'content/partials/footerscripts.php' ?>
     
 </body>

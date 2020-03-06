@@ -1,91 +1,88 @@
-<footer>
-    <div class="mob-footer">
-        <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
-        <div class="row-container-footer">
-            <!-- First row of logos -->
-            <div class="row flex">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
-            </div>
-            <!-- Second Row of logos -->
-            <div class="row flex">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
-            </div>
-        </div>
+<section class="cid-rEFjgv9tqx mtop" id="footer5-b" style="">
 
-        <div class="flex rezLogoBottom">
-            <img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-rezolutionLogo.png" alt="" class="mauto">
-        </div>
-
-        <div class="footerMenu flex">
-            <div class="left mauto">
-                <a>Why Us</a>
-                <a>Case Studies</a>
-                <a>Schedule a call</a>
-            </div>
-            <div class="right mauto">
-                <a>Terms of Use</a>
-                <a>Cookies Policy</a>
-                <a>Privacy Policy</a>
-            </div>
-        </div>
-
-        <div class="socialBar">
-            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb-2.png" alt=""></a>
-            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-linkin-2.png" alt=""></a>
-            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-twitte-2.png" alt=""></a>
-            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta-2.png" alt=""></a>
-        </div>
-
-        <p class="aligncenter addr">18851 NE 29th Avenue —  Suite 700 / Aventura FL 33180</p>
     
-    </div>
-    <div class="desk-footer">
-        <div class="inside-footer-container">
-            <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
-            <!-- First row of logos -->
-            <div class="row flex">
-                <img class="mauto mzeroleft" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
-            </div>
 
-            <div class="bottom-sect">
-                <div class="left-sec">
-                    <img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-rezolutionLogo.png" alt="" class="rezolution-logo">
-                    <div class="social-bars">
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-linkin.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-twitter.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta.png" alt=""></a>
-                    </div>
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-md-3">
+                <div class="media-wrap">
+                    <a href="https://pixelandpapers.com/" class="">
+                       <img src="/wp-content/themes/pixelGenesis/images/favicon.ico" alt="Pixel And Papers" title="" class="">
+                    </a>
                 </div>
-                <div class="right-sec">
-                    <div class="menuNavContainer">
-                        <div class="left mauto">
-                            <a href="#">Why Us</a>
-                            <a href="#">Case Studies</a>
-                            <a href="#">Schedule a call</a>
-                        </div>
-                        <div class="right mauto">
-                            <a href="#">Terms of Use</a>
-                            <a href="#">Cookies Policy</a>
-                            <a href="#">Privacy Policy</a>
-                        </div>
-                    </div>
-                    <p class="addr">18851 NE 29th Avenue —  Suite 700 / Aventura FL 33180</p>
-                </div>
+            </div>
+            <div class="col-md-9">
+                <!--
+                <p class="mbr-text align-right links mbr-fonts-style display-7">
+                    <a href="#" class="text-black">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="text-black">TERMS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="text-black">CAREERS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="text-black">CONTACT</a>
+                </p>
+                -->
             </div>
         </div>
+        <div class="footer-lower">
+            <div class="left">
+                <div class="media-container-row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="media-container-row mbr-white">
+                    <div class="col-md-6 copyright">
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            © Copyright 2020 Pixel &amp; Papers - All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-list align-right">
+                            
+                            <div class="soc-item">
+                                <a href="https://twitter.com/PapersPixel" target="_blank" class="">
+                                    <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Pixel-and-Papers-109608633753757/" target="_blank" class="">
+                                    <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            
+                            <div class="soc-item">
+                                <a href="https://www.linkedin.com/company/pixel-and-papers/" target="_blank" class="">
+                                    <span class="socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            
+                            <div class="soc-item">
+                                <a href="https://www.instagram.com/pixel_and_papers/" target="_blank" class="">
+                                    <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            
+                            <!--
+                            <div class="soc-item">
+                                <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                    <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.behance.net/Mobirise" target="_blank">
+                                    <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                                </a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+
+
+  </div>
+        </div>
     </div>
-</footer>
+</section>
