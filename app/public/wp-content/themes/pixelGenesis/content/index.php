@@ -166,7 +166,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">We've had the pleasure the represent these amazing companies.</h1>
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">We've had the pleasure to represent these amazing companies.</h1>
                 
                 
             </div>
