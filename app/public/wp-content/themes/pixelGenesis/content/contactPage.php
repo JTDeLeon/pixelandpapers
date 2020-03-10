@@ -25,7 +25,7 @@
         <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/assets/mobirise/css/mbr-additional.css" type="text/css"> -->
         <?php include 'partials/navBarStyles.php' ?>
         <!-- wp_head -->
-        <?php wp_head(); ?>
+        <?php //wp_head(); ?>
         <!-- /wp_head -->
     </head> 
     <body class="_ox-globals contact " >
@@ -49,7 +49,9 @@
                                 <div class="flex">
                                     <div class="left">
                                         <div class="contactform">
-                                            <!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="//www.123formbuilder.com/embed/5268400.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->
+                                           <!-- www.123formbuilder.com script begins here -->
+                                            <script type="text/javascript" defer src="//www.123formbuilder.com/embed/5145038.js" data-role="form" data-default-width="650px"></script>
+                                            <!-- www.123formbuilder.com script ends here -->
                                         </div>
                                     </div>
                                     <div class="right">
