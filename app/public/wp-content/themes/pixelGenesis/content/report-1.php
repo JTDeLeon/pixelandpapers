@@ -19,7 +19,8 @@
        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/style.min.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/style.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/content/build/css/report-1.css" type="text/css">
 
         <!-- wp_head -->
         <?php wp_head(); ?>
@@ -74,7 +75,7 @@
                                             <section class="form">
                                                 <!-- Begin Mailchimp Signup Form -->
                                                 <div id="mc_embed_signup">
-                                                <form action="https://pixelandpapers.us4.list-manage.com/subscribe/post?u=e21acaf2745039cda5b1de256&amp;id=d88b200ae6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                <form action="https://pixelandpapers.us4.list-manage.com/subscribe/post?u=e21acaf2745039cda5b1de256&id=d88b200ae6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                                     <div id="mc_embed_signup_scroll">
                                                     
                                                 <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
@@ -85,6 +86,15 @@
                                                 <div class="mc-field-group mc-field-item">
                                                     <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label> -->
                                                     <input type="email" placeholder="Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                                </div>
+
+                                                <div class="mc-field-group" style="display: none;">
+                                                    <label for="mce-group[68719]">Our Available Reports: </label>
+                                                    <select name="group[68719]" class="REQ_CSS" id="mce-group[68719]">
+                                                    <option selected value=""></option>
+                                                    <option selected value="1">How to Use A/B Testing For Website Marketing Optimization</option>
+                                                <option value="2">Subscribers</option>
+                                                    </select>
                                                 </div>
                                                 <!-- <div class="mc-field-group">
                                                     <label for="mce-LNAME">Last Name </label>
