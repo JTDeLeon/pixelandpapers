@@ -154,7 +154,6 @@
                         <div class="clear mauto">
                             <input style="" type="submit" value="YES! SIGN ME UP!" name="subscribe" id="mc-embedded-subscribe" class="button cta-button">
                         </div>
-                        </div>
                     </form>
                     </div>
                     <div class="about-us widget">
