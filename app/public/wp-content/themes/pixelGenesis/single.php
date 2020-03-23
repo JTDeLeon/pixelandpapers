@@ -164,24 +164,36 @@
                             <div class="line"></div>
                         </h3>
                         <p>Sign Up For Our Email List And You'll Receive Our Top Tips And Tricks For AB Testing!</p>
-                        <form action="https://pixelandpapers.us4.list-manage.com/subscribe/post?u=e21acaf2745039cda5b1de256&amp;id=d88b200ae6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                            <div id="mc_embed_signup_scroll" class="flex-col">
-                                
-                          
-                            <div class="mc-field-group mc-field-item mauto whundred">
-                               
-                                <input type="email" placeholder="Email" value="" name="EMAIL" class="required email whundred tcenter" id="mce-EMAIL">
-                            </div>
-                            
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>    
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e21acaf2745039cda5b1de256_d88b200ae6" tabindex="-1" value=""></div>
-                                <div class="clear mauto">
-                                    <input type="submit" value="YES! SIGN ME UP!" name="subscribe" id="mc-embedded-subscribe" class="button cta-button"></div>
-                                   
-                        </form>
+                        <form action="https://pixelandpapers.us4.list-manage.com/subscribe/post?u=e21acaf2745039cda5b1de256&amp;id=d88b200ae6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll" class="flex-col">
+                        <br>
+                        
+                        <div class="mc-field-group mc-field-item mauto whundred">
+                            <input type="email" placeholder="Email" value="" name="EMAIL" class="required email whundred tcenter" id="mce-EMAIL">
+                        </div>
+
+                        <div class="mc-field-group" style="display:none;">
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                        </div>
+
+                    <div class="mc-field-group" style="display: none;">
+                        <label for="mce-group[68719]">Our Available Reports: </label>
+                        <select name="group[68719]" class="REQ_CSS" id="mce-group[68719]">
+                        <option value=""></option>
+                        <option value="1">How to Use A/B Testing For Website Marketing Optimization</option>
+                    <option selected value="2">Subscribers</option>
+                        </select>
+                    </div>
+
+                        <div id="mce-responses" style="float: inherit;" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e21acaf2745039cda5b1de256_d88b200ae6" tabindex="-1" value=""></div>
+                        <div class="clear mauto">
+                            <input style="" type="submit" value="YES! SIGN ME UP!" name="subscribe" id="mc-embedded-subscribe" class="button cta-button">
+                        </div>
+                    </form>
                     </div>
                     <div class="about-us widget">
                         <h3 class="widget-title">
