@@ -87,7 +87,7 @@
                 <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2"><strong>Understanding your audience and their behavior</strong> is the most powerful tool in business. </h1>
                 <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">
                 Here at Pixel & Papers, our team is dedicated to optimizing the digital experience for valued customers everywhere. Our company's pride lies in getting you on track to achieve the greatest return on investment for your business and with Pixel & Papers.</p>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We’ve built relationships with some of the largest, newly-launched businesses by improving customer engagement platforms. This process begins with an educational approach. We want you to teach us about your customers, so our team can determine which platform is best suited for your website.
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">We’ve built relationships with some of the largest, newly-launched businesses by improving customer engagement platforms. This process begins with an educational approach. We want you to teach us about your customers so our team can determine which platform is best suited for your website.
                 </p>
                 <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">You could be maximizing your profits right now, by eliminating digital guesswork and getting started with Pixel & Papers.
                 </p>
@@ -110,7 +110,7 @@
             <div class="media-container">
                 <div class="col-md-12 align-center">
                     <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1"></h1>
-                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-1">We are a global marketing, web design and testing agency specializing in optimizing user experience.</p>
+                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-1">We are a global marketing, web design and testing agency that specializes in optimizing user experience.</p>
                     
 
                     <div class="icons-media-container mbr-white">
