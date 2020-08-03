@@ -1266,3 +1266,57 @@ footer {
 
 h2.mbr-section-title.align-center.pb-3.mbr-fonts-style.display-2 {
   color: black; }
+
+.form-section {
+  background: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(100% 0, 100% 80%, 0% 100%, 0 0%); }
+  .form-section h1 {
+    color: white !important; }
+    @media (max-width: 769px) {
+      .form-section h1 {
+        margin-top: 50px; } }
+  .form-section .col {
+    display: flex; }
+    @media (max-width: 769px) {
+      .form-section .col {
+        flex-direction: column; } }
+    .form-section .col div {
+      width: 50%;
+      margin: auto; }
+      @media (max-width: 769px) {
+        .form-section .col div {
+          width: 100%; } }
+    .form-section .col .left .green-txt {
+      color: #7dc244; }
+
+.mission-section {
+  max-width: 100%; }
+
+.navbar {
+  background: white !important; }
+
+.understand-section .container {
+  max-width: 100%; }
+  .understand-section .container .mbr-section-title {
+    font-weight: 700; }
+  .understand-section .container .service-sec {
+    display: flex;
+    justify-content: flex-start; }
+    @media (max-width: 769px) {
+      .understand-section .container .service-sec {
+        flex-direction: column; } }
+    .understand-section .container .service-sec .container-service {
+      margin: auto;
+      width: 33%;
+      margin-top: 0;
+      padding: 0 20px; }
+      @media (max-width: 769px) {
+        .understand-section .container .service-sec .container-service {
+          width: 100%; } }
+
+.btn-cont {
+  display: flex; }
+  .btn-cont a {
+    margin: auto; }
